@@ -4,6 +4,7 @@
   font-size: 18px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .settings__setting i {
@@ -12,8 +13,6 @@
   font-size: 22px;
 }
 
-/* testing github */
-
-.test {
-  font-size: 12px;
+.settings__setting-column:last-child {
+  opacity: 0.5;
 }
